@@ -1,0 +1,5 @@
+{
+    "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "initializeCommand": "bash .devcontainer/setup"
+}

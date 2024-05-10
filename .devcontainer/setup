@@ -1,0 +1,12 @@
+//!env node
+
+const main = () => {
+  // TODO: Ensure precondition here by adding code
+}
+
+if (
+  (typeof require !== 'undefined' && require?.main === module)
+  || (typeof require === 'undefined')
+) {
+  main()
+}
